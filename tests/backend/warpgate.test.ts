@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
-import { PluginCapabilityError } from "@termix/plugin-sdk/backend";
-import { createMockCtx } from "@termix/plugin-sdk/testing";
-import type { PluginManifest } from "@termix/plugin-sdk/manifest";
+import { PluginCapabilityError } from "@termix-ssh/plugin-sdk/backend";
+import { createMockCtx } from "@termix-ssh/plugin-sdk/testing";
+import type { PluginManifest } from "@termix-ssh/plugin-sdk/manifest";
 import manifestJson from "../../manifest.json";
 import { activate } from "../../src/backend/index.js";
 import { detectWarpgateRound } from "../../src/backend/detect.js";

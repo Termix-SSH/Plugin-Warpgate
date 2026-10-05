@@ -1,7 +1,7 @@
 import type {
   PluginKeyboardInteractiveDetection,
   PluginKeyboardInteractivePrompt,
-} from "@termix/plugin-sdk/backend";
+} from "@termix-ssh/plugin-sdk/backend";
 
 const WARPGATE_PATTERN = /warpgate\s+authentication/i;
 const URL_PATTERN = /https?:\/\/[^\s\n]+/i;

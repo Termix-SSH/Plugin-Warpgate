@@ -1,4 +1,4 @@
-import type { TermixApp } from "@termix/plugin-sdk/frontend";
+import type { TermixApp } from "@termix-ssh/plugin-sdk/frontend";
 
 // The host setting is drawn by core's schema form and the sign-in dialog is
 // the transports' own, so there is nothing to register.

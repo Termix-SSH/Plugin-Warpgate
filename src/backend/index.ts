@@ -1,4 +1,4 @@
-import type { PluginContext } from "@termix/plugin-sdk/backend";
+import type { PluginContext } from "@termix-ssh/plugin-sdk/backend";
 import { detectWarpgateRound } from "./detect.js";
 import { hostImportNormalizer } from "./host-import.js";
 
