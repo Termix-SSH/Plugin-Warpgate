@@ -10,6 +10,10 @@
   "repository": "https://github.com/Termix-SSH/Plugin-Warpgate",
   "category": "Access & Security",
   "icon": "DoorOpen",
+  "features": [
+    "Warpgate's browser approval shows as a sign in dialog",
+    "Your saved password is sent to Warpgate for you"
+  ],
   "engine": {
     "termix": ">=26.10.0",
     "api": "1"
