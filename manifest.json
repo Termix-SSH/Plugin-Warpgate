@@ -2,7 +2,7 @@
   "id": "warpgate",
   "name": "Warpgate",
   "version": "1.0.0",
-  "description": "Connect through a Warpgate SSH bastion, with its browser approval shown as a sign in dialog.",
+  "description": "Connect to hosts through a Warpgate SSH bastion.",
   "author": {
     "name": "Termix"
   },
