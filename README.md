@@ -14,6 +14,8 @@
 
 Warpgate lets you connect to hosts through a [Warpgate](https://github.com/warp-tech/warpgate) SSH bastion.
 
+Read the [docs](https://docs.termix.site/plugins/warpgate) to set it up and use it.
+
 <br />
 
 ## Features
