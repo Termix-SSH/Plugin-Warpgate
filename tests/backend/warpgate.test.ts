@@ -50,6 +50,17 @@ describe("detectWarpgateRound", () => {
     ).toMatchObject({ url: "https://gate.example/x", code: "N/A" });
   });
 
+  it("drops punctuation that ends the sentence after the URL", () => {
+    expect(
+      detectWarpgateRound({
+        name: "Warpgate authentication",
+        instructions:
+          "Open this link: https://gate.example/@warpgate#/login/abc.",
+        prompts: [],
+      }),
+    ).toMatchObject({ url: "https://gate.example/@warpgate#/login/abc" });
+  });
+
   it("leaves other rounds, and a Warpgate round without a URL, alone", () => {
     expect(
       detectWarpgateRound({

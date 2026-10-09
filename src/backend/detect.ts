@@ -30,7 +30,8 @@ export function detectWarpgateRound(round: {
   const key = fullText.match(SECURITY_KEY_PATTERN);
   return {
     kind: "browser",
-    url: url[0],
+    // A sentence can end right after the link.
+    url: url[0].replace(/[.,;:!?)\]]+$/, ""),
     code: key ? key[1] : "N/A",
     instructions: round.instructions,
   };
