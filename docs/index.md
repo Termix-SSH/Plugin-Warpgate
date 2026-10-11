@@ -2,10 +2,10 @@ Warpgate lets Termix connect to hosts through a [Warpgate](https://github.com/wa
 
 ## Set up a host
 
-1. Install the plugin from the **Plugins** tab.
+1. Install the plugin from the Plugins tab.
 2. Add the host with Warpgate's address and port, and the username Warpgate expects, like `you:target-name`. See the [Warpgate docs](https://warpgate.null.page/) for the format.
 3. Set the login, like a password, as you would for Warpgate.
-4. Turn on **Warpgate Gateway** in the host's Warpgate section and save.
+4. Turn on Warpgate Gateway in the host's Warpgate section and save.
 
 ## Connect
 
