@@ -3,7 +3,7 @@
     "host": {
       "useWarpgate": {
         "label": "Brama Warpgate",
-        "description": "Ten host łączy się przez proxy SSH Warpgate. Termix automatycznie obsłuży proces zatwierdzania w przeglądarce po uwierzytelnieniu."
+        "description": "Ten host łączy się przez proxy SSH Warpgate. Po uwierzytelnieniu Termix automatycznie obsłuży proces zatwierdzania w przeglądarce."
       }
     }
   }

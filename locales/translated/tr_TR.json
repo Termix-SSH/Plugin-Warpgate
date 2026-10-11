@@ -3,7 +3,7 @@
     "host": {
       "useWarpgate": {
         "label": "Warpgate Ağ Geçidi",
-        "description": "Bu sunucu bir Warpgate SSH proxy'si üzerinden bağlanır. Termix, kimlik doğrulamasından sonra tarayıcı tabanlı onay akışını otomatik olarak yönetir."
+        "description": "Bu ana bilgisayar, Warpgate SSH vekili üzerinden bağlanır. Kimlik doğrulamasından sonra Termix, tarayıcı tabanlı onay akışını otomatik olarak yönetecektir."
       }
     }
   }

@@ -2,8 +2,8 @@
   "settings": {
     "host": {
       "useWarpgate": {
-        "label": "Cổng Warpgate",
-        "description": "Máy chủ này kết nối thông qua proxy SSH Warpgate. Termix sẽ tự động xử lý luồng phê duyệt trên trình duyệt sau khi xác thực."
+        "label": "Warpgate Gateway",
+        "description": "Máy chủ này kết nối thông qua proxy SSH Warpgate. Termix sẽ tự động xử lý quy trình phê duyệt dựa trên trình duyệt sau khi xác thực."
       }
     }
   }

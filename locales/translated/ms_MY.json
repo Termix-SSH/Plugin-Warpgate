@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "host": {
+      "useWarpgate": {
+        "label": "Gerbang Warpgate",
+        "description": "Hos ini menyambung melalui proksi SSH Warpgate. Termix akan mengendalikan aliran kelulusan berasaskan pelayar secara automatik selepas pengesahan."
+      }
+    }
+  }
+}

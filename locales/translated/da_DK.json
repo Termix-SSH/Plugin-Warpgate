@@ -3,7 +3,7 @@
     "host": {
       "useWarpgate": {
         "label": "Warpgate Gateway",
-        "description": "Denne vært opretter forbindelse via en Warpgate SSH-proxy. Termix håndterer den browserbaserede godkendelsesproces automatisk efter godkendelse."
+        "description": "Denne vært forbinder gennem en Warpgate SSH-proxy. Termix håndterer automatisk godkendelsesflowet i browseren efter autentificering."
       }
     }
   }

@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "host": {
+      "useWarpgate": {
+        "label": "Warpgate šliuzas",
+        "description": "Šis serveris jungiasi per Warpgate SSH tarpinį serverį. Termix automatiškai valdys naršyklėje vykdomą patvirtinimo procesą po autentifikavimo."
+      }
+    }
+  }
+}

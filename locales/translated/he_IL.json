@@ -2,8 +2,8 @@
   "settings": {
     "host": {
       "useWarpgate": {
-        "label": "שער וורפגייט",
-        "description": "מארח זה מתחבר דרך פרוקסי Warpgate SSH. Termix יטפל בזרימת האישור מבוססת הדפדפן באופן אוטומטי לאחר האימות."
+        "label": "שער Warpgate",
+        "description": "מארח זה מתחבר דרך פרוקסי SSH של Warpgate. Termix יטפל באופן אוטומטי בתהליך האישור מבוסס הדפדפן לאחר האימות."
       }
     }
   }

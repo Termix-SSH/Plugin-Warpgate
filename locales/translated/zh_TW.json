@@ -2,8 +2,8 @@
   "settings": {
     "host": {
       "useWarpgate": {
-        "label": "Warpgate 閘道",
-        "description": "此主機透過 Warpgate SSH 代理連線。Termix 會在驗證後自動處理瀏覽器核准流程。"
+        "label": "Warpgate 閘道器",
+        "description": "此主機透過 Warpgate SSH 代理進行連線。驗證完成後，Termix 將自動處理基於瀏覽器的核准流程。"
       }
     }
   }

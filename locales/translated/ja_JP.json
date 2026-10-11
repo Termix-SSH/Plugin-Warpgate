@@ -2,8 +2,8 @@
   "settings": {
     "host": {
       "useWarpgate": {
-        "label": "Warpgateゲートウェイ",
-        "description": "このホストはWarpgate SSHプロキシ経由で接続します。認証後、Termixがブラウザベースの承認フローを自動的に処理します。"
+        "label": "Warpgate ゲートウェイ",
+        "description": "このホストは Warpgate SSH プロキシを介して接続します。認証後、Termix はブラウザベースの承認フローを自動的に処理します。"
       }
     }
   }

@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "host": {
+      "useWarpgate": {
+        "label": "Warpgate gateway",
+        "description": "Ovaj host se povezuje putem Warpgate SSH proxyja. Termix će automatski upravljati postupkom odobravanja u pregledniku nakon autentifikacije."
+      }
+    }
+  }
+}

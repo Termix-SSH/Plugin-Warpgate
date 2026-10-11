@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "host": {
+      "useWarpgate": {
+        "label": "Warpgate'i värav",
+        "description": "See host ühendub Warpgate'i SSH-proksü kaudu. Termix käivitab brauseripõhise kinnitustsükli automaatselt pärast autentimist."
+      }
+    }
+  }
+}

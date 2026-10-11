@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "host": {
+      "useWarpgate": {
+        "label": "Warpgate Gateway",
+        "description": "Tento host sa pripája cez SSH proxy Warpgate. Termix automaticky ovládne proces schválenia v prehliadači po overení."
+      }
+    }
+  }
+}

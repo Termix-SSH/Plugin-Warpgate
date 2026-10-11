@@ -2,8 +2,8 @@
   "settings": {
     "host": {
       "useWarpgate": {
-        "label": "Warpgate-poort",
-        "description": "Deze host maakt verbinding via een Warpgate SSH-proxy. Termix handelt de browsergebaseerde goedkeuringsprocedure automatisch af na authenticatie."
+        "label": "Warpgate Gateway",
+        "description": "Deze host maakt verbinding via een Warpgate SSH-proxy. Termix behandelt de goedkeuringsflow in de browser automatisch na authenticatie."
       }
     }
   }

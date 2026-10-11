@@ -3,7 +3,7 @@
     "host": {
       "useWarpgate": {
         "label": "Warpgate-yhdyskäytävä",
-        "description": "Tämä isäntä muodostaa yhteyden Warpgate SSH -välityspalvelimen kautta. Termix käsittelee selainpohjaisen hyväksyntäprosessin automaattisesti todennuksen jälkeen."
+        "description": "Tämä isäntä yhdistää Warpgate-SSH-välityspalvelimen kautta. Termix hoitaa selaimen perustuvan hyväksyntäprosessin automaattisesti todennuksen jälkeen."
       }
     }
   }

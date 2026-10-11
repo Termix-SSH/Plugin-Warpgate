@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "host": {
+      "useWarpgate": {
+        "label": "Warpgate Gateway",
+        "description": "Ta gostitelj se povezuje prek Warpgate SSH posrednika. Termix bo po preverjanju pristnosti samodejno upravljal s postopkom odobritve v brskalniku."
+      }
+    }
+  }
+}
