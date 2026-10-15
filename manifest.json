@@ -9,6 +9,7 @@
   "license": "Apache-2.0",
   "repository": "https://github.com/Termix-SSH/Plugin-Warpgate",
   "docs": "https://docs.termix.site/plugins/warpgate",
+  "video": "https://www.youtube.com/watch?v=utecf-s07ow",
   "category": "Access & Security",
   "icon": "DoorOpen",
   "features": [
