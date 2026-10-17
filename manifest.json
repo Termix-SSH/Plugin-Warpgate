@@ -1,7 +1,7 @@
 {
   "id": "warpgate",
   "name": "Warpgate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Connect to hosts through a Warpgate SSH bastion.",
   "author": {
     "name": "Termix"
