@@ -6,5 +6,9 @@
         "description": "Αυτός ο υπολογιστής συνδέεται μέσω ενός SSH proxy Warpgate. Το Termix θα διαχειριστεί αυτόματα τη διαδικασία έγκρισης μέσω προγράμματος περιήγησης μετά την πιστοποίηση."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Συνδεθείτε σε hosts μέσω ενός SSH bastion Warpgate."
   }
 }

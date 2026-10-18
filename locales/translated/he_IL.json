@@ -6,5 +6,9 @@
         "description": "מארח זה מתחבר דרך פרוקסי SSH של Warpgate. Termix יטפל באופן אוטומטי בתהליך האישור מבוסס הדפדפן לאחר האימות."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "התחבר למארחים דרך שרת ביניים (bastion) SSH של Warpgate."
   }
 }

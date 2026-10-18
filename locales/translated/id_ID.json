@@ -6,5 +6,9 @@
         "description": "Host ini terhubung melalui proxy SSH Warpgate. Termix akan menangani alur persetujuan berbasis browser secara otomatis setelah autentikasi."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Sambungkan ke host melalui bastion SSH Warpgate."
   }
 }

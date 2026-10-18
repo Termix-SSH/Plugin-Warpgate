@@ -6,5 +6,9 @@
         "description": "このホストは Warpgate SSH プロキシを介して接続します。認証後、Termix はブラウザベースの承認フローを自動的に処理します。"
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Warpgate SSH バスチオンを介してホストに接続します。"
   }
 }

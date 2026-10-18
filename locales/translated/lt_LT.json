@@ -6,5 +6,9 @@
         "description": "Šis serveris jungiasi per Warpgate SSH tarpinį serverį. Termix automatiškai valdys naršyklėje vykdomą patvirtinimo procesą po autentifikavimo."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Prisijunkite prie serverių per Warpgate SSH bastioną."
   }
 }

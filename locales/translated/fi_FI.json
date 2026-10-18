@@ -6,5 +6,9 @@
         "description": "Tämä isäntä yhdistää Warpgate-SSH-välityspalvelimen kautta. Termix hoitaa selaimen perustuvan hyväksyntäprosessin automaattisesti todennuksen jälkeen."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Yhdistä isäntiin Warpgate-SSH-bastionin kautta."
   }
 }

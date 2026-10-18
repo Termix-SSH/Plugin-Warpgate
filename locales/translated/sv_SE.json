@@ -6,5 +6,9 @@
         "description": "Denna värd ansluter via en Warpgate SSH-proxy. Termix hanterar automatiskt godkännandeflödet i webbläsaren efter autentisering."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Anslut till värdar via en Warpgate SSH-bastion."
   }
 }

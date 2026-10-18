@@ -6,5 +6,9 @@
         "description": "Šis resursdators savienojas caur Warpgate SSH starpniekserveri. Termix automātiski pārvaldīs pārlūkprogrammas apstiprināšanas procesu pēc autentifikācijas."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Savienojieties ar mezgliem, izmantojot Warpgate SSH bastionu."
   }
 }

@@ -6,5 +6,9 @@
         "description": "Ta gostitelj se povezuje prek Warpgate SSH posrednika. Termix bo po preverjanju pristnosti samodejno upravljal s postopkom odobritve v brskalniku."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Povežite se s strežniki prek SSH bastiona Warpgate."
   }
 }

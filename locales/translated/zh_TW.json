@@ -6,5 +6,9 @@
         "description": "此主機透過 Warpgate SSH 代理進行連線。驗證完成後，Termix 將自動處理基於瀏覽器的核准流程。"
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "透過 Warpgate SSH 跳板機連線主機。"
   }
 }

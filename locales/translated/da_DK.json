@@ -6,5 +6,9 @@
         "description": "Denne vært forbinder gennem en Warpgate SSH-proxy. Termix håndterer automatisk godkendelsesflowet i browseren efter autentificering."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Forbind til værter gennem en Warpgate SSH-bastion."
   }
 }

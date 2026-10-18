@@ -6,5 +6,9 @@
         "description": "Ez a gazdagép egy Warpgate SSH-proxy-n keresztül kapcsolódik. A Termix automatikusan kezeli a böngészőalapú jóváhagyási folyamatot a hitelesítés után."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Csatlakozzon a hosztekhez egy Warpgate SSH bástyaszerveren keresztül."
   }
 }

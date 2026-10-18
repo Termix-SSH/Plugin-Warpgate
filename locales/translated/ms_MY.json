@@ -6,5 +6,9 @@
         "description": "Hos ini menyambung melalui proksi SSH Warpgate. Termix akan mengendalikan aliran kelulusan berasaskan pelayar secara automatik selepas pengesahan."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Sambungkan ke hos melalui bastion SSH Warpgate."
   }
 }

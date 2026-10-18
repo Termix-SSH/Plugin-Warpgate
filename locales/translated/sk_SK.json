@@ -6,5 +6,9 @@
         "description": "Tento host sa pripája cez SSH proxy Warpgate. Termix automaticky ovládne proces schválenia v prehliadači po overení."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Pripojenie k hostiteľom cez SSH bastion Warpgate."
   }
 }

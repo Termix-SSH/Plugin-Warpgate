@@ -6,5 +6,9 @@
         "description": "이 호스트는 Warpgate SSH 프록시를 통해 연결됩니다. 인증 후 Termix가 브라우저 기반 승인 흐름을 자동으로 처리합니다."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Warpgate SSH 배스션을 통해 호스트에 연결합니다."
   }
 }

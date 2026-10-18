@@ -6,5 +6,9 @@
         "description": "此主机通过 Warpgate SSH 代理连接。认证后，Termix 将自动处理基于浏览器的审批流程。"
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "通过 Warpgate SSH 堡垒机连接主机。"
   }
 }

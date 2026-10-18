@@ -6,5 +6,9 @@
         "description": "Bu ana bilgisayar, Warpgate SSH vekili üzerinden bağlanır. Kimlik doğrulamasından sonra Termix, tarayıcı tabanlı onay akışını otomatik olarak yönetecektir."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Warpgate SSH bastion aracılığıyla ana makinelere bağlanın."
   }
 }

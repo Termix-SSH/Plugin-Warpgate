@@ -6,5 +6,9 @@
         "description": "Máy chủ này kết nối thông qua proxy SSH Warpgate. Termix sẽ tự động xử lý quy trình phê duyệt dựa trên trình duyệt sau khi xác thực."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Kết nối đến các host thông qua máy chủ bastion SSH Warpgate."
   }
 }

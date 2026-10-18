@@ -6,5 +6,9 @@
         "description": "Hierdie gasheer verbind deur 'n Warpgate SSH-proksy. Termix sal die browsergebaseerde goedkeuringsvloei outomaties hanteer na autentisering."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Skakel aan met gasheërs deur ’n Warpgate SSH-bastion."
   }
 }

@@ -6,5 +6,9 @@
         "description": "يتصل هذا المضيف عبر وكيل SSH الخاص بـ Warpgate. سيقوم Termix بإدارة سير الموافقة المستند إلى المتصفح تلقائيًا بعد المصادقة."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "الاتصال بالمضيفين عبر Bastion SSH الخاص بـ Warpgate."
   }
 }

@@ -6,5 +6,9 @@
         "description": "Este host conecta-se através de um proxy SSH Warpgate. O Termix irá lidar automaticamente com o fluxo de aprovação baseado no navegador após a autenticação."
       }
     }
+  },
+  "plugin": {
+    "name": "Warpgate",
+    "description": "Ligar a hosts através de um bastião SSH Warpgate."
   }
 }
