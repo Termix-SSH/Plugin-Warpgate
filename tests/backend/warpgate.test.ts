@@ -17,25 +17,6 @@ function sandboxMock(capabilities: string[]) {
     manifest,
     capabilities,
   });
-  // SDK 2.2.1's sandbox mock still refuses keyboard-interactive handlers;
-  // 2.2.2 takes them. Drop this once the lock moves to 2.2.2.
-  const auth = mock.ctx.auth as unknown as Record<string, unknown>;
-  const register = auth.registerKeyboardInteractiveHandler as (
-    handler: unknown,
-  ) => void;
-  auth.registerKeyboardInteractiveHandler = (handler: never) => {
-    try {
-      register(handler);
-    } catch (error) {
-      if ((error as { code?: string }).code !== "SANDBOX_UNSUPPORTED") {
-        throw error;
-      }
-      if (!capabilities.includes("auth:provide")) {
-        throw new PluginCapabilityError(manifest.id, "auth:provide");
-      }
-      mock.auth.keyboardInteractiveHandlers.push(handler);
-    }
-  };
   return mock;
 }
 
