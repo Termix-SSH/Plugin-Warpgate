@@ -10,12 +10,18 @@ import { hostImportNormalizer } from "../../src/backend/host-import.js";
 const manifest = manifestJson as unknown as PluginManifest;
 const HOST = { id: 1, ip: "10.0.0.1", port: 22, username: "root" };
 
-async function register() {
+function sandboxMock(capabilities: string[]) {
   const mock = createMockCtx({
+    sandbox: true,
     pluginId: manifest.id,
     manifest,
-    capabilities: manifest.capabilities,
+    capabilities,
   });
+  return mock;
+}
+
+async function register() {
+  const mock = sandboxMock(manifest.capabilities);
   await activate(mock.ctx);
   return mock.auth.keyboardInteractiveHandlers[0];
 }
@@ -97,11 +103,7 @@ describe("the warpgate handler", () => {
   });
 
   it("fails closed without auth:provide", async () => {
-    const mock = createMockCtx({
-      pluginId: manifest.id,
-      manifest,
-      capabilities: [],
-    });
+    const mock = sandboxMock([]);
     await expect(activate(mock.ctx)).rejects.toThrow(PluginCapabilityError);
   });
 });
